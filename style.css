@@ -277,7 +277,8 @@ body {
     letter-spacing: -0.2px;
     color: #1B1C21;
 
-    padding-top: 16px;
+    margin-top: 16px;
+
     padding-left: 24px;
 
     cursor: pointer;
