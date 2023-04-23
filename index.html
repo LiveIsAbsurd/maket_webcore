@@ -9,67 +9,28 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-left">
-            <button class="button button--icon-burger"></button>
-
-            <img class="header-left--logo" src="./icons/cps_logo.svg" alt="Логотип SPC">
+        <div class="header__right">
+            <button class="button button--icon-close"></button>
+            <img src="./icons/cps_logo.svg" alt="Лого CPS" class="header--logo">
         </div>
 
-        <div class="header-right">
-            <button class="button button--icon-call display-isHidden"></button>
-            <button class="button button--icon-message display-isHidden"></button>
-            <button class="button button--icon-contacts display-isHidden"></button>
-            
-            <button class="button button--icon-feedback"></button>
-            <button class="button button--icon-status"></button>
-        </div>
+        <button class="button button--icon-search"></button>
     </header>
-
-    <main class="main">
-        <div class="main-header">
-            <h1 class="main-header__text">Услуги и сервисы</h1>
-            <div class="main-button-container">
-                <button>
-                    <p>Оставить заявку</p>
-                    <div class="button button--icon-feedback"></div>
-                </button>
-                <button>
-                    <p>Статус ремонта</p>
-                    <div class="button button--icon-status"></div>
-                </button>
-            </div>
-        </div>
+    <main>
         <nav>
-            <ul class="menu">
-                <li class="menu__item menu__item--active-border"><a href="#">Ремонтируемые устройства</a></li>
-                <li class="menu__item"><a href="#">Дополнительные услуги</a></li>
-                <li class="menu__item"><a href="#">Цены на услуги</a></li>
-                <li class="menu__item"><a href="#">Адреса сервисных центров</a></li>
-                <li class="menu__item"><a href="#">Специальные цены</a></li>
-                <li class="menu__item"><a href="#">Отзывы</a></li>
+            <ul class="main__menu">
+                <li class="main__menu--active"><a href="#">Ремонт техники</li>
+                <li><a href="#">Услуги и сервисы</li>
+                <li><a href="#">Корпоративным клиентам</li>
+                <li><a href="#">Продавцам техники</li>
+                <li><a href="#">Партнёрам</a></li>
+                <li><a href="#">Производителям</a></li>
+                <li><a href="#">Наши сервисные центры</a></li>
+                <li><a href="#">Контакты</a></li>
             </ul>
-            <div class="menu__gradient"></div>
         </nav>
-        
-        <div class="text-block">
-            <div class="text-block__contaner">
-                <div class="text-block__text">
-                    <p class="text-block__paragraph">
-                        Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                    </p>
-                    <p class="text-block__paragraph">
-                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-                    </p>
-                </div>
-
-                <button class="text-block__button">Читать далее</button>
-            </div>
-            <div class="text-block__image"></div>
-        </div>
-
     </main>
     <footer>
-        
     </footer>
 </body>
 </html>
