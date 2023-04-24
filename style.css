@@ -131,6 +131,10 @@ body {
     margin-bottom: 32px;
 }
 
+.main-menu a:hover, .lang-choice a:hover {
+    color: #444444;
+}
+
 .main-menu a {
     text-decoration: none;
     font-family: 'TT Lakes';
