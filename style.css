@@ -77,11 +77,11 @@ body {
     color: #FFFFFF;
 }
 
-
 .swiper-pagination {
     position: static;
     margin-top: 16px;
 }
+
 .brand-list-open-button {
     background-color: inherit;
     border: 0;
@@ -92,7 +92,6 @@ body {
     color: #1B1C21;
 
     margin-top: 16px;
-
     margin-left: 36px;
 
     cursor: pointer;
@@ -155,6 +154,10 @@ body {
 @media (min-width: 1120px) {
     .brand-list {
         grid-template-columns: 240px 240px 240px 240px;
+    }
+
+    .brand-list-open-button {
+        margin-left: 50px;
     }
 }
 
