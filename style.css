@@ -82,7 +82,7 @@ body {
     margin-top: 16px;
 }
 
-.brand-list-open-button {
+.brand-list-button {
     background-color: inherit;
     border: 0;
     font-family: 'TT Lakes';
@@ -96,7 +96,7 @@ body {
     cursor: pointer;
 }
 
-.brand-list-open-button::before {
+.brand-list-button::before {
     display: inline-block;
     content: "";
     background-image: url(./icons/further.svg);
@@ -108,11 +108,11 @@ body {
     transition: transform 0.5s;
 }
 
-.brand-list-open-button--hidden {
+.brand-list-button--hidden {
     display: none;
 }
 
-.brand-list-open-button--open::before {
+.brand-list-button--open::before {
     transform: rotate(180deg);
 }
 
@@ -161,7 +161,7 @@ body {
         height: max-content;
     }
 
-    .brand-list-open-button--hidden {
+    .brand-list-button--hidden {
         display: block;
     }
 }
